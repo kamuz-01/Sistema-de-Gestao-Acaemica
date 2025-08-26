@@ -184,3 +184,4 @@ classDiagram
     Matricula "1" -- "0..*" Falta : registra
     Disciplina "1" -- "0..*" Nota : avaliada
     Disciplina "1" -- "0..*" Falta : frequencia
+
