@@ -1,4 +1,4 @@
-# 📚 Título do sistema desenvolvido: Sistema de Gestão Acadêmica (Sisgeac)
+# 📚 Sistema de Gestão Acadêmica (Sisgeac)
 
 Atividade avaliativa para a disciplina PROGRAMAÇÃO WEB II do Instituto Federal Catarinense - Campus Fraiburgo.
 
