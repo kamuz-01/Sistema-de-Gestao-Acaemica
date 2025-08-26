@@ -116,6 +116,7 @@ erDiagram
         string sobrenome
         string email
     }
+
 classDiagram
     class Professor {
         +id:int
