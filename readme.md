@@ -78,7 +78,7 @@ A interface administrativa foi personalizada utilizando o **Django Admin + Jazzm
 ## 🚀 Tecnologias Utilizadas
 
 - **Backend**: Django 5.x  
-- **Banco de Dados**: MySQL  
+- **Banco de Dados**: MySQL 8.0.42
 - **Frontend Administrativo**: Django Admin com Jazzmin (interface customizada)  
 - **Autenticação**: Django `User` integrado a Aluno e Professor  
 
