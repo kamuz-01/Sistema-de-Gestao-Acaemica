@@ -120,7 +120,7 @@ erDiagram
 ```
 
 ```mermaid
-erDiagram
+classDiagram
     class Professor {
         +id:int
         +nome:string
