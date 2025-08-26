@@ -13,7 +13,7 @@ A interface administrativa foi personalizada utilizando o **Django Admin + Jazzm
 
 - Representa os estudantes da instituição.
 - Possui vínculo com um `Curso`.
-- Sua `Matrícula` pode estar vinvulada em uma ou várias `Turmas`.
+- Sua `Matrícula` pode estar vinculada em uma ou várias `Turmas`.
 
 ### 👨‍🏫 Professor
 
@@ -125,10 +125,13 @@ erDiagram
         string email
     }
 
+```
+
 ---
 
-## 📊 Diagrama de Classes
+## 🖧 Diagrama de Classes
 
+```mermaid
 classDiagram
     class Professor {
         +id : int
@@ -196,5 +199,3 @@ classDiagram
     Matricula "1" -- "0..*" Falta : registra
     Disciplina "1" -- "0..*" Nota : avaliada
     Disciplina "1" -- "0..*" Falta : frequencia
-
----
