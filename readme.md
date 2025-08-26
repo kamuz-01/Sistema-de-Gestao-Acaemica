@@ -123,6 +123,7 @@ erDiagram
 
 ## 📊 Diagrama de Classes
 
+```mermaid
 classDiagram
     class Professor {
         +id:int
