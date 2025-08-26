@@ -123,60 +123,60 @@ erDiagram
 ```mermaid
 classDiagram
     class Professor {
-        +id:int
-        +nome:string
-        +sobrenome:string
-        +email:string
-        +status:bool
+        +id : int
+        +nome : string
+        +sobrenome : string
+        +email : string
+        +status : bool
     }
-    
+
     class Curso {
-        +id:int
-        +nome:string
-        +descricao:text
-        +carga_horaria_total:int
+        +id : int
+        +nome : string
+        +descricao : text
+        +carga_horaria_total : int
     }
 
     class Disciplina {
-        +id:int
-        +nome:string
-        +ementa:text
-        +carga_horaria:int
+        +id : int
+        +nome : string
+        +ementa : text
+        +carga_horaria : int
     }
 
     class Turma {
-        +id:int
-        +identificador:string
-        +ano:int
-        +semestre:int
+        +id : int
+        +identificador : string
+        +ano : int
+        +semestre : int
     }
 
     class Aluno {
-        +id:int
-        +nome:string
-        +sobrenome:string
-        +email:string
-        +data_nascimento:date
+        +id : int
+        +nome : string
+        +sobrenome : string
+        +email : string
+        +data_nascimento : date
     }
-    
+
     class Matricula {
-        +id:int
-        +data:date
+        +id : int
+        +data : date
     }
 
     class Nota {
-        +id:int
-        +avaliacao:string
-        +valor:decimal
-        +data:date
+        +id : int
+        +avaliacao : string
+        +valor : decimal
+        +data : date
     }
 
     class Falta {
-        +id:int
-        +data:date
-        +presente:bool
+        +id : int
+        +data : date
+        +presente : bool
     }
-    
+
     %% Relacionamentos
     Professor "0..*" -- "0..*" Disciplina : leciona
     Professor "0..*" -- "0..*" Turma : participa
@@ -188,4 +188,3 @@ classDiagram
     Matricula "1" -- "0..*" Falta : registra
     Disciplina "1" -- "0..*" Nota : avaliada
     Disciplina "1" -- "0..*" Falta : frequencia
-
