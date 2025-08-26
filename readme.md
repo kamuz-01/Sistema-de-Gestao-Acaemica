@@ -70,3 +70,49 @@ A interface administrativa foi personalizada utilizando o **Django Admin + Jazzm
 - **Autenticação**: Django `User` integrado a Aluno e Professor  
 
 ---
+
+## 📊 Diagrama Entidade-Relacionamento (ERD)
+
+```mermaid
+erDiagram
+    ALUNO ||--o{ MATRICULA : realiza
+    TURMA ||--o{ MATRICULA : possui
+    CURSO ||--o{ TURMA : organiza
+    CURSO ||--o{ DISCIPLINA : contem
+    PROFESSOR }o--o{ DISCIPLINA : leciona
+    TURMA }o--o{ PROFESSOR : vincula
+    MATRICULA ||--o{ NOTA : gera
+    MATRICULA ||--o{ FALTA : registra
+
+    ALUNO {
+        int id
+        string nome
+        string sobrenome
+        string email
+    }
+
+    CURSO {
+        int id
+        string nome
+        int carga_horaria_total
+    }
+
+    DISCIPLINA {
+        int id
+        string nome
+        int carga_horaria
+    }
+
+    TURMA {
+        int id
+        string identificador
+        int ano
+        int semestre
+    }
+
+    PROFESSOR {
+        int id
+        string nome
+        string sobrenome
+        string email
+    }
