@@ -10,49 +10,41 @@ A interface administrativa foi personalizada utilizando o **Django Admin + Jazzm
 ## 🗂️ Modelos do Sistema
 
 ### 👨‍🎓 Aluno
-
 - Representa os estudantes da instituição.
 - Possui vínculo com um `Curso`.
-- Sua `Matrícula` pode estar vinvulada em uma ou várias `Turmas`.
+- Sua `Matrícula` pode estar vinculada em uma ou várias `Turmas`.
 
 ### 👨‍🏫 Professor
-
 - Representa os docentes.
 - Associado a um `User` (para login no sistema).
 - Pode ministrar várias `Disciplinas`.
 - Pode estar vinculado a várias `Turmas`.
 
 ### 📖 Curso
-
 - Estrutura maior que agrupa várias `Disciplinas`.
 - Cada `Aluno` está vinculado a um único curso.
 
 ### 📘 Disciplina
-
 - Unidade de aprendizado pertencente a um `Curso`.
 - Pode ser ministrada por um ou mais `Professores`.
 - Associada a `Notas` e `Faltas` dos alunos.
 
 ### 👥 Turma
-
 - Agrupamento de alunos em um determinado semestre/ano.
 - Relacionada a um `Curso`.
 - Pode ter vários `Professores` e vários `Alunos` através de `Matrículas`.
 
 ### 📝 Matrícula
-
 - Conecta um `Aluno` a uma `Turma`.
 - Registro que valida a participação do aluno naquela turma específica.
 - Base para lançamento de `Notas` e `Faltas`.
 
 ### 🏷️ Nota
-
 - Avaliação atribuída a um aluno em determinada `Disciplina`.
 - Associada a uma `Matrícula`.
 - Contém informações como tipo da avaliação (Prova, Trabalho, etc.), valor obtido e data.
 
 ### 📅 Falta
-
 - Registro de presença/ausência de um aluno em determinada `Disciplina`.
 - Associada a uma `Matrícula`.
 - Informa a data e se o aluno estava presente ou não.
@@ -127,8 +119,6 @@ erDiagram
 
 ---
 
-## 📊 Diagrama de Classes
-
 classDiagram
     class Professor {
         +id : int
@@ -196,5 +186,3 @@ classDiagram
     Matricula "1" -- "0..*" Falta : registra
     Disciplina "1" -- "0..*" Nota : avaliada
     Disciplina "1" -- "0..*" Falta : frequencia
-
----
