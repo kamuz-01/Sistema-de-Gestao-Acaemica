@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+.img-circle {
+	border-radius: 50% !important;
+	width: 38px !important;
+	height: 150px !important;
+}
+
+.login-logo img{
+	width: 250px;
+	height: 200px;
+}
+
+.login-box-msg{
+	font-size: 30px;
+	font-weight: bold;
+	color: #2c7a7b;
+}
+
+.main-sidebar{
+	background-color: #0e5c67;
+}

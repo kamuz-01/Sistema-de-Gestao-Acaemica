@@ -1,0 +1,28 @@
+# Ignorar arquivos de configuração
+*.ini
+*.cfg
+
+# Ignorar arquivos do Eclipse/PyDev
+*.pydevproject
+.project
+.settings/
+.vscode/
+
+# Ignorar arquivos do sistema
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Ignorar banco de dados SQLite (opcional)
+db.sqlite3
+
+# Ignorar arquivos temporários
+*.swp
+*.bak
+*.tmp
+*.~*
+
+# Arquivos de sistema (Windows/macOS/Linux)
+.DS_Store
+Thumbs.db
