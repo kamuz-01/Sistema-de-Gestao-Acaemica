@@ -117,7 +117,9 @@ erDiagram
         string email
     }
 
+
 ---
+
 
 ## 📊 Diagrama de Classes
 
