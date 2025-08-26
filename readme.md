@@ -4,7 +4,7 @@ Atividade avaliativa para a disciplina PROGRAMAÇÃO WEB II do Instituto Federal
 
 ---
 
-## 🎯 Proósito do sistema
+## 🎯 Propósito do sistema
 
 O sistema visa **gerenciar informações acadêmicas** de uma instituição de ensino, facilitando o acompanhamento de **alunos, professores, cursos, disciplinas, turmas, matrículas, notas e faltas**.  
 A interface administrativa foi personalizada utilizando o **Django Admin + Jazzmin**, oferecendo uma navegação mais moderna e intuitiva.
