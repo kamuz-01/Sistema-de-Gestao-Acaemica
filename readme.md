@@ -119,7 +119,7 @@ erDiagram
 
 ```
 
-## Diagrama de Classes
+## 🖧 Diagrama de Classes
 ```mermaid
 classDiagram
     class Professor {
