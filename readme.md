@@ -119,6 +119,7 @@ erDiagram
 
 ```
 
+---
 ## 🖧 Diagrama de Classes
 ```mermaid
 classDiagram
