@@ -130,23 +130,6 @@ erDiagram
         string email
     }
 
-    class Matricula {
-        id
-        data
-    }
-
-    class Nota {
-        id
-        avaliacao
-        valor
-        data
-    }
-
-    class Falta {
-        id
-        data
-        presente
-    }
 
 ```
 
