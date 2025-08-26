@@ -117,13 +117,3 @@ erDiagram
         string email
     }
 
-
-```mermaid
-classDiagram
-    class Professor {
-        +id:int
-        +nome:string
-        +sobrenome:string
-        +email:string
-        +status:bool
-    }
