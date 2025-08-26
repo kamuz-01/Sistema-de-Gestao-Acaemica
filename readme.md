@@ -1,5 +1,7 @@
 # 📚 Sistema de Gestão Acadêmica (Sisgeac)
 
+---
+
 ## 🎯 Tema do Sistema
 
 O sistema tem como objetivo **gerenciar informações acadêmicas** de uma instituição de ensino, facilitando o acompanhamento de **alunos, professores, cursos, disciplinas, turmas, matrículas, notas e faltas**.  
