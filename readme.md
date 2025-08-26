@@ -73,7 +73,7 @@ A interface administrativa foi personalizada utilizando o **Django Admin + Jazzm
 
 ## 📊 Diagrama Entidade-Relacionamento (ERD)
 
-```mermaid
+
 erDiagram
     ALUNO ||--o{ MATRICULA : realiza
     TURMA ||--o{ MATRICULA : possui
