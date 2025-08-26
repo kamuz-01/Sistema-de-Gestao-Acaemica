@@ -118,7 +118,7 @@ erDiagram
     }
 
 ```mermaid
-classDiagram
+erDiagram
     class Professor {
         +id:int
         +nome:string
