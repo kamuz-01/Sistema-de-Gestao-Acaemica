@@ -130,7 +130,7 @@ erDiagram
         string email
     }
 
-        class Matricula {
+    class Matricula {
         id
         data
     }
