@@ -117,7 +117,6 @@ erDiagram
         string email
     }
 
----
 
 classDiagram
     class Professor {
