@@ -122,70 +122,9 @@ erDiagram
 ## 📊 Diagrama de Classes
 
 classDiagram
-    class Professor {
-        id
-        nome
-        sobrenome
-        email
-        status
-    }
-
-    class Curso {
-        id
-        nome
-        descricao
-        carga_horaria_total
-    }
-
-    class Disciplina {
-        id
-        nome
-        ementa
-        carga_horaria
-    }
-
-    class Turma {
-        id
-        identificador
-        ano
-        semestre
-    }
-
     class Aluno {
-        id
-        nome
-        sobrenome
-        email
-        data_nascimento
+        +id:int
+        +nome:string
+        +email:string
+        +data_nascimento:date
     }
-
-    class Matricula {
-        id
-        data
-    }
-
-    class Nota {
-        id
-        avaliacao
-        valor
-        data
-    }
-
-    class Falta {
-        id
-        data
-        presente
-    }
-
-    %% Relacionamentos
-    Professor "0..*" -- "0..*" Disciplina : leciona
-    Professor "0..*" -- "0..*" Turma : participa
-    Curso "1" -- "0..*" Disciplina : contem
-    Curso "1" -- "0..*" Turma : organiza
-    Aluno "1" -- "0..*" Matricula : realiza
-    Turma "1" -- "0..*" Matricula : possui
-    Matricula "1" -- "0..*" Nota : gera
-    Matricula "1" -- "0..*" Falta : registra
-    Disciplina "1" -- "0..*" Nota : avaliada
-    Disciplina "1" -- "0..*" Falta : frequencia
-
