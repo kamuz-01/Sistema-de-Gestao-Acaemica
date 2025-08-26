@@ -117,61 +117,65 @@ erDiagram
         string email
     }
 
+---
 
+## 📊 Diagrama de Classes
+
+```mermaid
 classDiagram
     class Professor {
-        +id : int
-        +nome : string
-        +sobrenome : string
-        +email : string
-        +status : bool
+        id
+        nome
+        sobrenome
+        email
+        status
     }
 
     class Curso {
-        +id : int
-        +nome : string
-        +descricao : text
-        +carga_horaria_total : int
+        id
+        nome
+        descricao
+        carga_horaria_total
     }
 
     class Disciplina {
-        +id : int
-        +nome : string
-        +ementa : text
-        +carga_horaria : int
+        id
+        nome
+        ementa
+        carga_horaria
     }
 
     class Turma {
-        +id : int
-        +identificador : string
-        +ano : int
-        +semestre : int
+        id
+        identificador
+        ano
+        semestre
     }
 
     class Aluno {
-        +id : int
-        +nome : string
-        +sobrenome : string
-        +email : string
-        +data_nascimento : date
+        id
+        nome
+        sobrenome
+        email
+        data_nascimento
     }
 
     class Matricula {
-        +id : int
-        +data : date
+        id
+        data
     }
 
     class Nota {
-        +id : int
-        +avaliacao : string
-        +valor : decimal
-        +data : date
+        id
+        avaliacao
+        valor
+        data
     }
 
     class Falta {
-        +id : int
-        +data : date
-        +presente : bool
+        id
+        data
+        presente
     }
 
     %% Relacionamentos
@@ -185,3 +189,5 @@ classDiagram
     Matricula "1" -- "0..*" Falta : registra
     Disciplina "1" -- "0..*" Nota : avaliada
     Disciplina "1" -- "0..*" Falta : frequencia
+
+---
