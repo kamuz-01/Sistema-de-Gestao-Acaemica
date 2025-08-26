@@ -1,8 +1,12 @@
-# 📚 Sistema de Gestão Acadêmica (Sisgeac)
+# 📚 Título do sistema desenvolvido: Sistema de Gestão Acadêmica (Sisgeac)
 
-## 🎯 Tema do Sistema
+Atividade avaliativa para a disciplina PROGRAMAÇÃO WEB II do Instituto Federal Catarinense - Campus Fraiburgo.
 
-O sistema tem como objetivo **gerenciar informações acadêmicas** de uma instituição de ensino, facilitando o acompanhamento de **alunos, professores, cursos, disciplinas, turmas, matrículas, notas e faltas**.  
+---
+
+## 🎯 Proósito do sistema
+
+O sistema visa **gerenciar informações acadêmicas** de uma instituição de ensino, facilitando o acompanhamento de **alunos, professores, cursos, disciplinas, turmas, matrículas, notas e faltas**.  
 A interface administrativa foi personalizada utilizando o **Django Admin + Jazzmin**, oferecendo uma navegação mais moderna e intuitiva.
 
 ---
@@ -26,6 +30,7 @@ A interface administrativa foi personalizada utilizando o **Django Admin + Jazzm
 
 - Estrutura maior que agrupa várias `Disciplinas`.
 - Cada `Aluno` está vinculado a um único curso.
+- Cada `Curso` contém várias disciplinas.
 
 ### 📘 Disciplina
 
@@ -128,7 +133,6 @@ erDiagram
 ```
 
 ---
-
 ## 🖧 Diagrama de Classes
 
 ```mermaid
