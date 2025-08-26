@@ -117,6 +117,7 @@ erDiagram
         string email
     }
 
+```mermaid
 classDiagram
     class Professor {
         +id:int
