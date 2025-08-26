@@ -1,5 +1,4 @@
 # 📚 Sistema de Gestão Acadêmica (Sisgeac)
-
 ---
 
 ## 🎯 Tema do Sistema
